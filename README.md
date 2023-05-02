@@ -6,14 +6,14 @@ In this analysis we set out to accurately classify loans as either 'Healthy' or 
 
 We start with a dataset with the following columns:
 
-'loan_size': $ amount of the loan
-'interest_rate': interest charged on the loan
-'borrower_income': the borrower's income
-'debt_to_income': the ratio of total_debt /  borrower_income
-'num_of_accounts': the borrower's number of accounts
-'derogatory_marks': the number of derogatory marks against that borrower's credit
-'total_debt': the total amount of debt carried by the borrower
-'loan_status': a binary where 0 = Healthy and 1 = High-Risk. This will be our target. 
+*'loan_size': $ amount of the loan
+*'interest_rate': interest charged on the loan
+*'borrower_income': the borrower's income
+*'debt_to_income': the ratio of total_debt /  borrower_income
+*'num_of_accounts': the borrower's number of accounts
+*'derogatory_marks': the number of derogatory marks against that borrower's credit
+*'total_debt': the total amount of debt carried by the borrower
+*'loan_status': a binary where 0 = Healthy and 1 = High-Risk. This will be our target. 
 
 We split the data set so that loan_status is our labels and the rest are our features. Then we split our labels and features into testing and training data.
 
