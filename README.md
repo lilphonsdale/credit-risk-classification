@@ -29,8 +29,8 @@ After evaluating the performance of the model with the original training data, w
     * Healthy Loan - 1
     * High-Risk Loan - 0.87
   * Recall
-   * Healthy Loan - 1
-   * High-Risk Loan - 0.89
+    * Healthy Loan - 1
+    * High-Risk Loan - 0.89
 
 * Logistic Regression using the resampled data:
   * Accuracy: 1
@@ -38,8 +38,8 @@ After evaluating the performance of the model with the original training data, w
     * Healthy Loan - 1
     * High-Risk Loan - 0.87
   * Recall
-   * Healthy Loan - 1
-   * High-Risk Loan - 1
+    * Healthy Loan - 1
+    * High-Risk Loan - 1
 
 ## Summary
 
